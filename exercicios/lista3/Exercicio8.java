@@ -4,7 +4,7 @@ public class Exercicio8 {
 
     public static void main(String[] args) {
         long produtoPrimos = 1;
-        for (int i = 93; i <= 107; i++) {
+        for (int i = 0; i <= 30; i++) {
             boolean primo = true;
 
             for (int j = 2; j <i; j++) {
