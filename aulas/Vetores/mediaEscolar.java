@@ -12,7 +12,7 @@ public class mediaEscolar {
 		
 		Scanner leitor = new Scanner(System.in);
 		
-		int nota;
+		/*int nota; */
 		
 		System.out.print("Digite a quantidade de alunos:");
 		int alunos = leitor.nextInt();
@@ -22,11 +22,11 @@ public class mediaEscolar {
 
 		for(int i = 0; i < quantidadeNotas; i++) {
 			System.out.print("Informe a nota:" + (i +1));
-			 nota = leitor.nextInt();
-		}
+			/*nota = leitor.nextInt();
+		 */ }
 		
 		
 		
-		
+		leitor.close();
 	}
 }

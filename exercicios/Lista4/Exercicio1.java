@@ -8,7 +8,7 @@ public class Exercicio1 {
         int [] vetor = new int[100];
 
 
-        for(int i =0; i <= 100; i++){
+        for(int i =0; i < 100; i++){
             
             vetor[i]= (i+1)*2;
            System.out.println(vetor[i]);

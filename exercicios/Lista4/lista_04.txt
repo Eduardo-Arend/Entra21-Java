@@ -2,7 +2,7 @@
 
 (02) Escreva um algoritmo para criar e popular um vetor com os 10 primeiros números primos.
 
-(03) Escreva um algoritmo para receber 2 vetores A e B de tamanho 10 contendo números inteiros. Ao final do algoritmo, o vetor B deve conter o fatorial de cada elemento do vetor A.
+(03) Escreva um algoritmo para receber 2vetores  A e B de tamanho 10 contendo números inteiros. Ao final do algoritmo, o vetor B deve conter o fatorial de cada elemento do vetor A.
 
 (04) Escreva um algoritmo para receber 2 vetores A e B de tamanho 10 contendo números inteiros. Ao final do algoritmo, um vetor C deve ser criado contendo a união de A e B.
 
