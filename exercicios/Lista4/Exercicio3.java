@@ -1,24 +1,35 @@
 package Lista4;
 
+import java.util.Scanner;
+
 public class Exercicio3 {
     public static void main(String[] args) {
 
-        int posicao = 0;
-        int fatorial = 1;
-        int numero = 10;
+        Scanner leitor = new Scanner(System.in);
 
-        int [][] vetor = new int[numero][fatorial];
+        int[] numeros = new int[10];
+        int[] fatoriais = new int[10];
 
-
-        while (posicao < 10) {
-           
-            boolean parada = true;
-            for(int i = 10; i >= 1; i--){
-                System.out.println(i);
-                vetor[numero] = ;
-                posicao++;
-            }
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.print("Digite o " + (i + 1) + "º valor: ");
+            numeros[i] = leitor.nextInt();
         }
-         System.out.println(vetor[]);
+
+        for(int i = 0; i< 10 ; i++){
+
+            int n = numeros[i];
+            int fatorial = 1;
+            
+        for(int j = 1; j < n; j++){
+            fatorial *= j;
+        }
+        fatoriais[i] = fatorial;
+
+        }
+        for(int i = 0; i < 10 ; i++){
+            System.out.println(numeros[i] + "! = " + fatoriais[i]);
+
+        }
+        leitor.close();
     }
 }
