@@ -94,7 +94,7 @@ n x n = n2
 
 	- cor dos cabelos (loiros, castanhos ou pretos)
 
-	- idade  
+	- idade   
 
 Escreva um algoritmo para ler as informações supracitadas. Calcular e escrever:   
 
