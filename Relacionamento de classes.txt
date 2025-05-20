@@ -1,0 +1,45 @@
+
+Tipos Relacionamento de classes:
+
+o que define cada um é a força do relacionamento , quanto mais forte mais estão acopladas ( não existe sem a outra classe).
+1-Associação = faz uso de outra classe 
+(mais fraca por que só usa outra classe)
+
+2-agregação = uma classe ela pertence a outra , ela compõe ao todo mas ela tem certa dependência do todo.
+(mais forte )
+
+3-composição =  uma classe ela pertence a outra, ela não existe sem o todo.
+(mais forte que agragação )
+
+----------------------------------------------------------------------------------------------------------
+
+Direção
+
+Bidimensional = os dois lados se conhecem.
+
+unidimensional = só um lado conhece o outro
+-------------------------------------------
+
+Cardinalidade = quanto um lado tá vinculado com o outro
+
+---------------------------------
+
+Herença é :
+
+
+
+
+
+Subclasse  e superclasse
+
+SuperClasse é a mais genérica 
+
+subclasse recebe a herança de uma SuperClasse
+
+
+
+
+
+
+
+
